@@ -59,7 +59,8 @@
     await taskStore.deleteTask(props.task.id);
   };
   const completedTask = async() =>{
-    await taskStore.completeTask(props.task.id);
+    
+    await taskStore.completeTask(props.task.is_complete,props.task.id);
   };
 
   
