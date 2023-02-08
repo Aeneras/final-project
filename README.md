@@ -29,8 +29,8 @@ Por todo ello, he de tener en cuenta varias cosas.
 Una vez tenido esto en cuenta, los objetivos que me he planteado para estos días son:
 <em>08/02</em>
 <ul>
-  <li>Hacer Readme</li>
-  <li>Repasar conocimientos</li>
-  <li>Editar y borrar tareas</li>
+  <li><del>Hacer Readme</del></li>
+  <li><del>Repasar conocimientos</del></li>
+  <li><del>Editar y borrar tareas</del></li>
   
  
