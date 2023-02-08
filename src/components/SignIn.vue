@@ -4,12 +4,10 @@
 
   <div class="container">
     <h3 class="header-title">Log In to ToDo App</h3>
-    
-    
-    <form @submit.prevent="signIn" class="form-sign-in">
-      <div class="form">
-        <div class="form-input">
-          <label class="input-field-label">E-mail</label>
+    <p class="header-subtitle">Header subtitle</p>
+
+    <form class="sign-in-form" @submit.prevent="signIn">
+      <label class="input-field-label">E-mail</label>
           <input
             type="email"
             class="input-field"
@@ -18,9 +16,8 @@
             v-model="email"
             required
           />
-        </div>
-        <div class="form-input">
-          <label class="input-field-label">Password</label>
+          <br>
+      <label class="input-field-label">Password</label>
           <input
             type="password"
             class="input-field"
@@ -29,10 +26,8 @@
             v-model="password"
             required
           />
-        </div>
-        <button class="button" type="submit">Sign In</button>
-        </div>
-        </form>
+          <button class="button" type="submit">Log In</button>
+    </form>
     <p>Dont have an account? <PersonalRouter :route="route" :buttonText="buttonText" class="sign-up-link"/></p>
   </div>
 
@@ -44,9 +39,6 @@ import PersonalRouter from "./PersonalRouter.vue";
 import { supabase } from "../supabase";
 import { useRouter } from "vue-router";
 import { useUserStore } from "../stores/user";
-
-
-
 // Route Variables
 const route = "/auth/signup";
 const buttonText = "Sign Up";
@@ -55,16 +47,15 @@ const email = ref("");
 const password = ref("");
 // Router to push user once SignedUp to Log In
 const redirect = useRouter();
-
 // Error Message
 const errorMsg = ref("");
-
 // Arrow function to Signin user to supaBase
 const signIn = async () => {
-
-    try {
+  if (password.value === password.value) {
+  try {
+    console.log("click");
       // calls the user store and send the users info to backend to logIn
-      const user = await useUserStore().signIn(email.value, password.value);
+      await useUserStore().signIn(email.value, password.value);
       // redirects user to the homeView
       redirect.push({ path: "/" });
     } catch (error) {
@@ -75,8 +66,8 @@ const signIn = async () => {
         errorMsg.value = null;
       }, 5000);
     }
-  
-  
+    return;
+  }
   errorMsg.value = "error";
 };
 </script>

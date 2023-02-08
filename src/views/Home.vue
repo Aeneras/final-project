@@ -8,7 +8,7 @@
     </div>
     <NewTask />
     <h1>Tasks:</h1>
-    <TaskItem v-for="task in tasks" :key="task.id" :task="task" />
+    <TaskItem v-for="task in tasks" :key="task.id" :task="task" @editChild="getTasks" />
   </div>
 </template>
 
@@ -36,6 +36,12 @@ onUpdated(()=>{
   getTasks();
 }) 
 
+// Funcion par completar tearea conectandose a Supabase
+const completeTaskSupabase = async(booleanValueFromTaskEmit) =>{
+  console.log("click me");
+  let changeTaskBooleanValue = !booleanValueFromTaskEmit
+  
+}
 </script>
 
 <style></style>
