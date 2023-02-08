@@ -5,11 +5,32 @@ Una vez pasado ese momento de crisis, decidí calmarme y hacer un pequeño esque
 La idea es sacar toda la lógica posible.
 <h2>Semana dos: Del 13 al 17 de febrero</h2>
 Como no habrá el soporte de los profesores, la idea es hacer el CSS, ya que es algo que domino más.
-<h3>Semana tres: Del 20 al 24 de febrero</h2>
+<h2>Semana tres: Del 20 al 24 de febrero</h2>
 Entre lunes y miércoles acabar toda la lógica, el jueves preparar la presentación y el viernes "disfrutar".
 Obviamente, estos planes son maravillosos pero tienen grandes problemas: Obviamente el calendario ha de ser mucho más exhaustivo y dividirlo día a día. Además he de tener muy en cuenta que pueden haber imprevistos y que es algo que pasará.
 Por todo ello, he de tener en cuenta varias cosas.
 <h2>Objetivos</h2>
 <ul>
-  <li>Cumplir los mínimos del proyecto</li>
-  <li>Conseguir asumir más conocimientos de Vue</li>
+  <li>Cumplir los objetivos del proyecto</li>
+  <li>Consolidar los conocimientos de Vue</li>
+</ul>
+<h2>Puntos fuertes a la hora de realizar el proyecto</h2>
+<ul>
+  <li>Unos profesores que están encantados de ayudar en todo</li>
+  <li>Unos compañeros a los que recurrir en caso de problemas tantos del proyecto como de ánimos</li>
+  <li>Una red como es Internet en la que está todo el conocimiento necesario</li>
+   <li>La sensación de que no parto con los conocimientos necesarios para afrontar el proyecto hará que no tenga la sensación de poderme dormir en los laureles</li>
+  </ul>
+  <h2>Puntos débiles a la hora de realizar el proyecto</h2>
+  <ul>
+  <li>La frustración que inevitablemente aparecerá</li>
+  <li>La falta de unos conocimientos previos tan amplios como debería</li>
+</ul>
+Una vez tenido esto en cuenta, los objetivos que me he planteado para estos días son:
+<em>08/02</em>
+<ul>
+  <li>Hacer Readme</li>
+  <li>Repasar conocimientos</li>
+  <li>Editar y borrar tareas</li>
+  
+ 
