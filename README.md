@@ -39,5 +39,11 @@ Una vez tenido esto en cuenta, los objetivos que me he planteado para estos día
   <li><del>Modal</del></li>
   <li>CSS</li>
   </ul>
+   <em>10/02</em>
+<ul>
+  <li>CSS</></li>
+  <li>Empezar logica de profile</del></li>
+  
+  </ul>
   
  

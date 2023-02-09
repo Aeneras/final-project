@@ -8,6 +8,8 @@
     --fontBody: 'Helvetica';
 }
 
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -45,5 +47,26 @@ h1 {
 /* SignUp Component */
 
 /* Home view */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .all{
+        width: 25%;
+    display:flex;
+    justify-content: center;
+    background-color: #D6EAF8;
+    padding:20px;
+    }
+    input{
+        background-color: #F5B7B1;
+        margin-top: 3px;
+    }
+    button{
+        background-color: #FCF3CF;
+        margin-top: 3px;
+        margin-right:5px;
+    }
 
 /* Account View */

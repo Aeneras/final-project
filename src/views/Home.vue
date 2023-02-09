@@ -1,4 +1,7 @@
 <template>
+  <div class="all">
+    <h1>Welcome to my meravellous and fantastic task organizer!</h1>
+    <p>Here you can organize your tasks, edit, delete, and a lot of things more!(or no)</p>
   <div class="wrapper">
     <Nav />
 
@@ -9,6 +12,7 @@
     <NewTask />
     <h1>Tasks:</h1>
     <TaskItem v-for="task in tasks" :key="task.id" :task="task" @editChild="getTasks" />
+  </div>
   </div>
 </template>
 
@@ -44,7 +48,15 @@ const completeTaskSupabase = async(booleanValueFromTaskEmit) =>{
 }
 </script>
 
-<style></style>
+<style scoped>
+.all{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+</style>
 
 <!-- 
 **Hints**

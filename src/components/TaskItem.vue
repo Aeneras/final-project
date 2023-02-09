@@ -9,9 +9,10 @@
       <!-- Modal -->
       <div class="modal" v-if="showModal">
         <h2>Are you sure?</h2>
+        <p>But really really sure?</p>
         <button @click="deleteTask">Yes!Burn it all!</button>
         <button @click="showModal = false">No,plis! I am scared!</button>
-        <p>But really really sure?</p>
+        
       </div>
 
       <button @click="completedTask">Completed {{ task.title }}</button>
