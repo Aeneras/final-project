@@ -5,7 +5,15 @@
         {{ task.title }}
       </h3>
       <p>{{  task.description }}</p>
-      <button @click="deleteTask">Delete {{ task.title }}</button>
+      <button @click="showModal = true">Delete {{ task.title }}</button>
+      <!-- Modal -->
+      <div class="modal" v-if="showModal">
+        <h2>Are you sure?</h2>
+        <button @click="deleteTask">Yes!Burn it all!</button>
+        <button @click="showModal = false">No,plis! I am scared!</button>
+        <p>But really really sure?</p>
+      </div>
+
       <button @click="completedTask">Completed {{ task.title }}</button>
     </div>
     <button @click="showInput">Edit</button>
@@ -66,7 +74,14 @@
   
   </script>
   
-  <style></style>
+  <style scoped>
+  .modal{
+    width:200px;
+    height:300px;
+    background: green;
+
+  }
+</style>
   
   <!--
   **Hints**

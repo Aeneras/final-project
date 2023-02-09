@@ -18,14 +18,11 @@
           />
           <br>
       <label class="input-field-label">Password</label>
-          <input
-            type="password"
-            class="input-field"
-            placeholder="**********"
-            id="password"
-            v-model="password"
+          <input :type="showPassword ? 'text' : 'password'" class="input-field" placeholder="**********" id="password"
+           v-model="password"
             required
           />
+          <button @click.prevent="toggleShowPassword">Mostrar contraseña</button>
           <button class="button" type="submit">Log In</button>
     </form>
     <p>Dont have an account? <PersonalRouter :route="route" :buttonText="buttonText" class="sign-up-link"/></p>
@@ -49,6 +46,13 @@ const password = ref("");
 const redirect = useRouter();
 // Error Message
 const errorMsg = ref("");
+//Mostrar ocultar contraseña
+
+const showPassword=ref(false);
+const toggleShowPassword=() => {
+showPassword.value =!showPassword.value
+
+}
 // Arrow function to Signin user to supaBase
 const signIn = async () => {
   if (password.value === password.value) {

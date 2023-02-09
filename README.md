@@ -35,9 +35,9 @@ Una vez tenido esto en cuenta, los objetivos que me he planteado para estos día
   </ul>
   <em>09/02</em>
 <ul>
-  <li><del>Hacer CSS de la página ppal</del></li>
-  <li><del>Repasar conocimientos</del></li>
-  <li><del>Empezar la parte del usuario</del></li>
+  <li><del>Boton ocultar contraseña</del></li>
+  <li><del>Modal</del></li>
+  <li>CSS</li>
   </ul>
   
  
