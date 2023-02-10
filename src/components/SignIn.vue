@@ -3,8 +3,8 @@
 <template>
 
   <div class="container">
-    <h3 class="header-title">Log In to ToDo App</h3>
-    <p class="header-subtitle">Header subtitle</p>
+    <h3 class="header-title">Bienvenido a la mejor app de gestión de tareas!CatTask!</h3>
+    <p class="header-subtitle">Además de </p>
 
     <form class="sign-in-form" @submit.prevent="signIn">
       <label class="input-field-label">E-mail</label>
