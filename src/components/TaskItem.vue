@@ -68,6 +68,7 @@
     await taskStore.deleteTask(props.task.id);
   };
   const completedTask = async() =>{
+    console.log("Completada!")
     
     await taskStore.completeTask(props.task.is_complete,props.task.id);
   };
@@ -79,8 +80,11 @@
   .modal{
     width:200px;
     height:300px;
-    background: green;
+    background: #CFD8DC ;
 
+  }
+  .completedTask{
+    background:#D1C4E9
   }
 </style>
   

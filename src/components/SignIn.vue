@@ -3,10 +3,11 @@
 <template>
 
   <div class="container">
-    <h3 class="header-title">Bienvenido a la mejor app de gestión de tareas!CatTask!</h3>
-    <p class="header-subtitle">Además de </p>
-
+    <h3 class="header-title">Welcome to the best app of task manage!!CatTask!</h3>
+    <p class="header-subtitle">Here you can create your tasks, erase and delete it!And also you can know if you need a cat in your live!</p>
+     
     <form class="sign-in-form" @submit.prevent="signIn">
+       <div class="formulario">
       <label class="input-field-label">E-mail</label>
           <input
             type="email"
@@ -17,15 +18,19 @@
             required
           />
           <br>
+          <div class="contrasenas">
       <label class="input-field-label">Password</label>
           <input :type="showPassword ? 'text' : 'password'" class="input-field" placeholder="**********" id="password"
            v-model="password"
             required
           />
-          <button @click.prevent="toggleShowPassword">Mostrar contraseña</button>
-          <button class="button" type="submit">Log In</button>
+          
+          <button @click.prevent="toggleShowPassword">Show pass</button>
+        </div>
+          <button class="button" id="logIn" type="submit">Log In</button>
+        </div>
     </form>
-    <p>Dont have an account? <PersonalRouter :route="route" :buttonText="buttonText" class="sign-up-link"/></p>
+    <p>Don't have an account? <PersonalRouter :route="route" :buttonText="buttonText" class="sign-up-link"/></p>
   </div>
 
 </template>

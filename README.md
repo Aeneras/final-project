@@ -42,8 +42,15 @@ Una vez tenido esto en cuenta, los objetivos que me he planteado para estos día
    <em>10/02</em>
 <ul>
   <li>CSS</></li>
-  <li>Empezar logica de profile</del></li>
+  <li>HTML de cuestionario ok</del></li>
   
   </ul>
+  09/02 18:38 hora Zulú(o Barcelona):Acabo de pensar en una página adicional para el proyecto: El Test de si deberías tener un gato.
+  Será un formulario en que las respuestas siempre conduzcan a que deberías tener un gato. Una vez planteado esto, me planteo dos posibles retos:
+  <strong>Opción simple</strong>
+Da igual lo que el usuario haya seleccionado, la opción siempre dará como respuesta que deberías tener un gato, con el mismo texto.
+<strong>Opción compleja</strong>
+El resultado será siempre que deberías adoptar un gato, pero adaptando el texto que salga a las respuestas del usuario. Por ejemplo: Si un usuario dice que le gustan los animales cariñosos, en la respuesta puede poner que los gatos con sus amos, pueden ser muy cariñosos. En cambio, si el usuario dice que NO le gustan los animales cariñosos, en la respuesta el programa dirá que los gatos necesitan su espacio personal y que son ideales para alguien a quien no le gusten los animales cariñosos.
+Como añadido, se podría poner un botón al final de cada pregunta que traduzca los textos del castellano al inglés y al reves.(a nivel de lógica podría ser algo parecido a mostrar/ocultar contraseña)
   
  

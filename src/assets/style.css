@@ -45,7 +45,10 @@ h1 {
 }
 
 /* SignUp Component */
-
+.contrasenas{
+    display: flex;
+    align-items: center;
+}
 /* Home view */
 body{
     display: flex;
@@ -53,20 +56,29 @@ body{
     align-items: center;
 }
     .all{
-        width: 25%;
+        width: 45%;
     display:flex;
     justify-content: center;
     background-color: #D6EAF8;
     padding:20px;
     }
+    label{
+        width: 61px;
+    }
     input{
         background-color: #F5B7B1;
         margin-top: 3px;
+        width:84%;
+    }
+    #logIn{
+        width: 100%;
     }
     button{
         background-color: #FCF3CF;
         margin-top: 3px;
         margin-right:5px;
+        width: 100%;
+       
     }
 
 /* Account View */
