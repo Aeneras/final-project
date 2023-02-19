@@ -52,5 +52,15 @@ Da igual lo que el usuario haya seleccionado, la opción siempre dará como resp
 <strong>Opción compleja</strong>
 El resultado será siempre que deberías adoptar un gato, pero adaptando el texto que salga a las respuestas del usuario. Por ejemplo: Si un usuario dice que le gustan los animales cariñosos, en la respuesta puede poner que los gatos con sus amos, pueden ser muy cariñosos. En cambio, si el usuario dice que NO le gustan los animales cariñosos, en la respuesta el programa dirá que los gatos necesitan su espacio personal y que son ideales para alguien a quien no le gusten los animales cariñosos.
 Como añadido, se podría poner un botón al final de cada pregunta que traduzca los textos del castellano al inglés y al reves.(a nivel de lógica podría ser algo parecido a mostrar/ocultar contraseña)
+<h2>19/02</h2>
+La verdad es que la semana ha sido tremendamente pasada por diversos motivos fue tremendamente caótica, por lo que, muy a mi pesar, creo que, lo más realista es intentar acabar lo básico lo antes posible y, si me queda tiempo, haré algún extra. La parte positiva es que esta tarde estoy pudiendo aprovechar para acabar los labs que me faltaban. Además, he hablado con mi compañero de Mid Term y el plan mañana es acabar los detalles que nos quedaban para finiquitarlo.
+Por otro lado, hace unos días vi que, por misterios de la programación, el botón complete del final lab no funciona como debería, por lo tanto, mañana día 20/02, los objetivos son:
+<ul>
+<li>Acabar mid-term</li>
+<li>Revisar y finiquitar entera la lógica del final project</li>
+<li>Hacer todo el css</li>
+</ul>
+Si hiciera esto, para el martes me quedaría la parte responsive, el miércoles podría dedicarlo a preparar la presentación y el jueves a mirar últimos detalles.
+Vamos a ver como va esta última semana...
   
  
