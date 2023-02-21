@@ -3,8 +3,8 @@
 <template>
 
   <div class="container">
-    <h3 class="header-title">Welcome to the best app of task manage!!CatTask!</h3>
-    <p class="header-subtitle">Here you can create your tasks, erase and delete it!And also you can know if you need a cat in your live!</p>
+    <h3 class="header-title">Welcome to the best app of task manage!!</h3>
+    <p class="header-subtitle">Here you can create your tasks, erase and delete it!</p>
      
     <form class="sign-in-form" @submit.prevent="signIn">
        <div class="formulario">
@@ -18,7 +18,7 @@
             required
           />
           <br>
-          <div class="contrasenas">
+          <!-- <div class="contrasenas"> -->
       <label class="input-field-label">Password</label>
           <input :type="showPassword ? 'text' : 'password'" class="input-field" placeholder="**********" id="password"
            v-model="password"
@@ -26,7 +26,7 @@
           />
           
           <button @click.prevent="toggleShowPassword">Show pass</button>
-        </div>
+        
           <button class="button" id="logIn" type="submit">Log In</button>
         </div>
     </form>
@@ -79,6 +79,7 @@ const signIn = async () => {
   }
   errorMsg.value = "error";
 };
+let showModal=false
 </script>
 
 <style></style>

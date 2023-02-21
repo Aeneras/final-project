@@ -38,12 +38,20 @@
     padding-left: 0.85em;
 } */
 
- */
+
 
 h1 {
     color: var(--colorRed);
 }
-
+label{
+    display:flex;
+    flex-direction: row;
+    background-color: #EBEDEF;
+    border:1px solid;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+}
 /* SignUp Component */
 .contrasenas{
     display: flex;
@@ -54,28 +62,37 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
     .all{
-        width: 45%;
+        width: 100%;
     display:flex;
     justify-content: center;
     background-color: #D6EAF8;
     padding:20px;
+    margin-top: 20px;
+    border-radius: 15px;
     }
-    label{
-        width: 61px;
-    }
+   .wrapper{
+    background-color: red;
+    width: 100%;
+   }
     input{
         background-color: #F5B7B1;
-        margin-top: 3px;
-        width:84%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width:100%;
+        border-radius: 10px;
+        overflow: auto;
+       
     }
     #logIn{
         width: 100%;
     }
     button{
         background-color: #FCF3CF;
-        margin-top: 3px;
+        margin-top: 10px;
+        border-radius: 10px;
         margin-right:5px;
         width: 100%;
        

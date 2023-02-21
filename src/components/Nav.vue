@@ -1,18 +1,17 @@
 <template>
   <nav>
     <!-- <PersonalRouter :route="route" :buttonText="buttonText" class="logo-link"/> -->
+    
     <router-link to="/">
       Home
     </router-link>
 
-    <ul>
+    <ul class="ul-nav">
         <li>
           <router-link to="/">Task Manager</router-link>
         </li>
 
-        <li>
-          <router-link to="/account">Your Account</router-link>
-        </li>
+        
     </ul>
 
     <div>

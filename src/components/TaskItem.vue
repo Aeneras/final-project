@@ -38,6 +38,7 @@
     // console.log("click");
     emit("taskComplete", props.task);
   };
+  const showModal=false;
   // variable para usar tienda de tarea facil
   const taskStore = useTaskStore();
   // variable para recibir informacion de la tarea mediante prop como .Objeto
