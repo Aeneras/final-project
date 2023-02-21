@@ -65,5 +65,6 @@ Vamos a ver como va esta última semana...
 <h2>20/02</h2>
 Bueno los objetivos del día se han cumplido a medias. Sí que es verdad que el CSS de la página principal está acabado y que por fin acabamos el midterm.
 Ergo, para el día de hoy sigue faltando el botón de completar, hacer el CSS de la página de tareas, así como hacerlo todo responsive. Al lío! 
-  
+<h2>21/02</h2>
+Pues los objetivos propuestos se han cumplido y ya puedo decir a día 21/02 tengo acabado los mínimos del Final Project(o eso creo). A qué destinaré estos días? A hacer una presentación decente y a acabar de pulir esos detalles que pueden hacer que me quede más o menos satisfecho con el proyecto.
  
