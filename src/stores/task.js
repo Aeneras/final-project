@@ -34,10 +34,10 @@ export const useTaskStore = defineStore("tasks", () => {
   // .update({ other_column: 'otherValue' })
   // .eq('some_column', 'someValue')
 
-  const completeTask = async (valorBooleano,id) => {
+  const completeTask = async (valorBooleano, id) => {
     
     let { data: tasks, error } = await supabase.from('tasks')
-    .update({is_complete: !valorBooleano})
+    .update({is_complete:valorBooleano})
     .match({id: id})
 
   }

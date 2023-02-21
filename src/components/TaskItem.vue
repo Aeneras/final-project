@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="container">
-      <h3 :class="props.task.is_complete ? 'class-one' : 'class-two'">
-        {{ task.title }}
-      </h3>
-      <p>{{  task.description }}</p>
-      <button @click="showModal = true">Delete {{ task.title }}</button>
+      
+      <h3 :class="props.task.is_complete ? 'case1': 'case2'">{{task.title}}</h3>
+    <p :class="props.task.is_complete ? 'case1': 'case2'">{{ task.description }}</p>
+      <!-- <p>{{ task.is_complete }}</p> -->
+      <button @click="showModal = true">Delete </button>
       <!-- Modal -->
       <div class="modal" v-if="showModal">
         <h2>Are you sure?</h2>
@@ -15,10 +15,12 @@
         
       </div>
 
-      <button @click="completedTask">Completed {{ task.title }}</button>
-    </div>
+      <button @click="completedTask">Completed </button>
+      <!-- <h3 :class="props.task.is_complete ? 'case1': 'case2'">{{task.title}}</h3>
+    <p :class="props.task.is_complete ? 'case1': 'case2'">{{ task.description }}</p> -->
+    
     <button @click="showInput">Edit</button>
-
+</div>
     <div v-if="inputContainer">
       <input type="text" v-model="currentTaskTitle" />
       <input type="text" v-model="currentTaskDescription" />
@@ -31,13 +33,11 @@
   import { ref } from "vue";
   import { useTaskStore } from "../stores/task";
   import { supabase } from "../supabase";
+
   // definir emits para pasar lógica y eventos hacia componentes padres
   const emit = defineEmits(["taskComplete", "editChild"]);
-  // funcion para completar tarea que se encarga de enviar la info al padre
-  const completeTask = () => {
-    // console.log("click");
-    emit("taskComplete", props.task);
-  };
+  
+
   const showModal=false;
   // variable para usar tienda de tarea facil
   const taskStore = useTaskStore();
@@ -64,14 +64,21 @@
       emit("editChild");
     }
   };
+
+
+
   // Función para borrar la tarea a través de la store. El problema que tendremos aquí (y en NewTask.vue) es que cuando modifiquemos la base de datos los cambios no se verán reflejados en el v-for de Home.vue porque no estamos modificando la variable tasks guardada en Home. Usad el emit para cambiar esto y evitar ningún page refresh.
   const deleteTask = async () => {
     await taskStore.deleteTask(props.task.id);
   };
-  const completedTask = async() =>{
+  // FUNCION TO COMPLETE TASK Y ENVIAR INFO DE TAREA A HOME
+  const completedTask = () =>{
+    // chequear que este conectada
     console.log("Completada!")
+    console.log(props.task)
+    // pasar info de tarea con emit 
+    emit("taskComplete", props.task);
     
-    await taskStore.completeTask(props.task.is_complete,props.task.id);
   };
 
   
@@ -79,10 +86,24 @@
   
   <style scoped>
   .modal{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     width:200px;
-    height:300px;
+    height:200px;
     background: #CFD8DC ;
+    border:1px solid black;
+    border-radius:10px;
+    margin-top:10px;
 
+  }
+  .modal h2{
+    margin-bottom:3px;
+    color:#5DADE2;
+  }
+  .modal p{
+    color:red;
   }
   .completedTask{
     background:#D1C4E9

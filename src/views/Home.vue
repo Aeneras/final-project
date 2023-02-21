@@ -5,13 +5,14 @@
   <div class="wrapper">
     <Nav />
 
-    <div class="content"> 
-      <h3>Your account:</h3>
-      <router-link to="/account">Account</router-link>
-    </div>
-    <NewTask />
+    
+    <NewTask class="new-task"/>
     <h1>Tasks:</h1>
-    <TaskItem v-for="task in tasks" :key="task.id" :task="task" @editChild="getTasks" />
+    <TaskItem 
+    v-for="task in tasks" :key="task.id" :task="task" 
+    @editChild="getTasks" 
+    @task-complete="completeTaskSupa"
+    />
   </div>
   </div>
 </template>
@@ -36,15 +37,18 @@ const getTasks = async() => {
 
 getTasks();
 onUpdated(()=>{
-
   getTasks();
 }) 
 
 // Funcion par completar tearea conectandose a Supabase
-const completeTaskSupabase = async(booleanValueFromTaskEmit) =>{
-  console.log("click me");
-  let changeTaskBooleanValue = !booleanValueFromTaskEmit
-  
+const completeTaskSupa = async (infoDeTarea) => {
+  //console.log(infoDeTarea)
+
+  let taskId = infoDeTarea.id
+  let taskBoolean = infoDeTarea.is_complete
+  let oppositeTaskBoolean = !infoDeTarea.is_complete
+  console.log(taskId, oppositeTaskBoolean)
+  await taskStore.completeTask(oppositeTaskBoolean, taskId);
 }
 </script>
 

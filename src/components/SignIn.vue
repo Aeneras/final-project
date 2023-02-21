@@ -8,7 +8,7 @@
      
     <form class="sign-in-form" @submit.prevent="signIn">
        <div class="formulario">
-      <label class="input-field-label">E-mail</label>
+      <label class="input-field-label">I don't remember your e-mail...</label>
           <input
             type="email"
             class="input-field"
@@ -19,7 +19,7 @@
           />
           <br>
           <!-- <div class="contrasenas"> -->
-      <label class="input-field-label">Password</label>
+      <label class="input-field-label">Ok. And your password  is...</label>
           <input :type="showPassword ? 'text' : 'password'" class="input-field" placeholder="**********" id="password"
            v-model="password"
             required
@@ -27,10 +27,10 @@
           
           <button @click.prevent="toggleShowPassword">Show pass</button>
         
-          <button class="button" id="logIn" type="submit">Log In</button>
+          <button class="button" id="logIn" type="submit">I want to enter in this meravellous app!</button>
         </div>
     </form>
-    <p>Don't have an account? <PersonalRouter :route="route" :buttonText="buttonText" class="sign-up-link"/></p>
+    <p>I dont't have an account and i want it ALL! <PersonalRouter :route="route" :buttonText="buttonText" class="sign-up-link"/></p>
   </div>
 
 </template>

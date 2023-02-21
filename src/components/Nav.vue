@@ -10,10 +10,7 @@
         <li>
           <router-link to="/">Task Manager</router-link>
         </li>
-
-        
     </ul>
-
     <div>
       <ul>
         <li class="log-out-welcome">
@@ -60,7 +57,7 @@ const signOut = async () => {
   width: 90px;
 }
 nav {
-  background-color: lightgray;
+  background-color: #E9F7EF ;
   display: flex;
   width: 100%;
   justify-content: space-around;
