@@ -2,7 +2,7 @@
  
 <template>
 
-  <div class="container">
+  <div class="containersignIn">
     <h3 class="header-title">Welcome to the best app of task manage!!</h3>
     <p class="header-subtitle">Here you can create your tasks, erase and delete it!</p>
      

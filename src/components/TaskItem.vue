@@ -96,6 +96,7 @@
     border:1px solid black;
     border-radius:10px;
     margin-top:10px;
+    width:5px;
 
   }
   .modal h2{

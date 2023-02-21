@@ -1,26 +1,11 @@
 <template>
   <nav>
-    <!-- <PersonalRouter :route="route" :buttonText="buttonText" class="logo-link"/> -->
-    
-    <router-link to="/">
-      Home
-    </router-link>
-
     <ul class="ul-nav">
-        <li>
-          <router-link to="/">Task Manager</router-link>
-        </li>
-    </ul>
-    <div>
-      <ul>
-        <li class="log-out-welcome">
-          <p>Welcome, user</p>
-        </li>
-        <li>
-          <button @click="signOut" class="button">Log out</button>
-        </li>
+        <li><router-link to="/">Task Manager</router-link></li>
+        <li class="log-out-welcome"><p>Welcome, user</p></li>
+        <li><button @click="signOut" class="button-log-out">Log out</button></li>
       </ul>
-    </div>
+    
   </nav>
 </template>
 
@@ -57,11 +42,20 @@ const signOut = async () => {
   width: 90px;
 }
 nav {
-  background-color: #E9F7EF ;
+  background-color: #EBDEF0;
+  border:1px solid;
+  box-shadow: 5px 5px 5px black;
+  border-radius:50px;
   display: flex;
   width: 100%;
   justify-content: space-around;
   align-items: center;
+}
+.ul-nav{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  width:100%;
 }
 nav ul {
   list-style: none;
@@ -69,5 +63,15 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+nav ul li{
+  text-decoration:none;
+  margin:2%
+}
+.button-log-out{
+  background-color:EBF5FB;
+  border:1px solid red;
+  width:80px;
+
 }
 </style>

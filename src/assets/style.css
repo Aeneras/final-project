@@ -59,7 +59,7 @@ label{
     border:1px solid;
     border-radius: 15px;
     text-align: center;
-    width: 70%;
+    width: 100%;
     margin-bottom: 5px;
 }
 /* SignUp Component */
@@ -75,7 +75,7 @@ body{
     min-height: 100vh;
 }
     .all{
-        width: 100%;
+        
     display:flex;
     justify-content: center;
     background-color: #E9F7EF;
@@ -101,14 +101,24 @@ body{
     background-color:#FCF3CF ;
     width: 100%;
    }
-   .container{
-    background-color: lightpink;
-    height: 300px;
+   .containersignIn{
+    background-color: ;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 200px;
+    overflow: auto;
+    padding:10px;
+    margin:5px;
+   }
+   .container{
+    background-color: #E9F7EF; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
     overflow: auto;
     padding:10px;
     margin:5px;
@@ -123,7 +133,7 @@ body{
         background-color: #F5B7B1;
         margin-top: 5px;
         margin-bottom: 5px;
-        width:70%;
+        width:100%;
         border-radius: 10px;
         padding:0;
        
