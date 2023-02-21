@@ -62,5 +62,8 @@ Por otro lado, hace unos días vi que, por misterios de la programación, el bot
 </ul>
 Si hiciera esto, para el martes me quedaría la parte responsive, el miércoles podría dedicarlo a preparar la presentación y el jueves a mirar últimos detalles.
 Vamos a ver como va esta última semana...
+<h2>20/02</h2>
+Bueno los objetivos del día se han cumplido a medias. Sí que es verdad que el CSS de la página principal está acabado y que por fin acabamos el midterm.
+Ergo, para el día de hoy sigue faltando el botón de completar, hacer el CSS de la página de tareas, así como hacerlo todo responsive. Al lío! 
   
  
