@@ -112,6 +112,11 @@ body{
     padding:10px;
     margin:5px;
    }
+   .father{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
    .container{
     background-color: #ABEBC6 ;
     box-shadow: 5px 5px 15px #AED6F1 ; 
@@ -123,7 +128,7 @@ body{
     overflow: auto;
     padding:10px;
     margin:5px;
-    width: 200px;
+    width: 201px;
    }
    .case2{
     text-decoration: none;
@@ -140,6 +145,15 @@ body{
         padding:0;
        
     }
+    .edit{
+        display: flex;
+        background-color: #D4EFDF;
+        width: 201px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
     #logIn{
         width: 100%;
     }
@@ -151,5 +165,16 @@ body{
         width: 70%;
        
     }
-
+    .footer{
+    display:flex;
+    flex-direction: row;
+    }
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-list{
+        display: flex;
+        flex-direction: row;
+    }
 /* Account View */

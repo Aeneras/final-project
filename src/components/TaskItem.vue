@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="father">
     <div class="container">
       
       <h3 :class="props.task.is_complete ? 'case1': 'case2'">{{task.title}}</h3>
@@ -21,10 +21,12 @@
     
     <button @click="showInput">Edit</button>
 </div>
+<div class="edit">
     <div v-if="inputContainer">
       <input type="text" v-model="currentTaskTitle" />
       <input type="text" v-model="currentTaskDescription" />
       <button @click="editTask">Edit Task</button>
+      </div>
     </div>
   </div>
   </template>
@@ -90,13 +92,13 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    width:200px;
+    width:20px;
     height:200px;
     background: #CFD8DC ;
     border:1px solid black;
     border-radius:10px;
     margin-top:10px;
-    width:5px;
+   
 
   }
   .modal h2{

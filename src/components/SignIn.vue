@@ -31,8 +31,9 @@
         </div>
     </form>
     <p>I dont't have an account and i want it ALL! <PersonalRouter :route="route" :buttonText="buttonText" class="sign-up-link"/></p>
+    
   </div>
-
+  <Footer/>
 </template>
 
 <script setup>
@@ -41,6 +42,7 @@ import PersonalRouter from "./PersonalRouter.vue";
 import { supabase } from "../supabase";
 import { useRouter } from "vue-router";
 import { useUserStore } from "../stores/user";
+import Footer from '../components/Footer.vue';
 // Route Variables
 const route = "/auth/signup";
 const buttonText = "Sign Up";
