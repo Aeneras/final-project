@@ -21,13 +21,11 @@
     
     <button @click="showInput">Edit</button>
 </div>
-<div class="edit">
-    <div v-if="inputContainer">
+    <div v-if="inputContainer" class="edit">
       <input type="text" v-model="currentTaskTitle" />
       <input type="text" v-model="currentTaskDescription" />
       <button @click="editTask">Edit Task</button>
       </div>
-    </div>
   </div>
   </template>
   
@@ -92,7 +90,7 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    width:20px;
+    width:200px;
     height:200px;
     background: #CFD8DC ;
     border:1px solid black;

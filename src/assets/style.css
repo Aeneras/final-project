@@ -152,6 +152,8 @@ body{
         padding: 10px;
         text-align: center;
         margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
     }
     
     #logIn{
@@ -167,7 +169,7 @@ body{
     }
     .footer{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     }
     .footer-list{
         display: flex;
@@ -176,5 +178,14 @@ body{
     .contact-list{
         display: flex;
         flex-direction: row;
+    }
+    .footer-image{
+        width: 20px;
+        border-radius:0;
+        margin-right: 10px;
+    }
+    .footer-p{
+        width: 50%;
+        display: contents;
     }
 /* Account View */
