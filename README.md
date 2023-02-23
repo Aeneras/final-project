@@ -69,4 +69,26 @@ Ergo, para el día de hoy sigue faltando el botón de completar, hacer el CSS de
 Pues los objetivos propuestos se han cumplido y ya puedo decir a día 21/02 tengo acabado los mínimos del Final Project(o eso creo). A qué destinaré estos días? A hacer una presentación decente y a acabar de pulir esos detalles que pueden hacer que me quede más o menos satisfecho con el proyecto.
 <h2>22/02</h2>
 Hoy me he puesto con el footer y 4 detalles que quedaban de la página, además de haber dejado la presentación prácticamente acabada, así que son los 2 primeros objetivos para mañana, el penúltimo día antes de acabar esta aventura 
+<h1>Conclusiones finales(tanto del curso como de este proyecto</h1>
+Esto se acaba y llega el momento de sacar mis propias conclusiones.
+Sabía que esto iba a ser duro, pero que como tenía cierta base, podría ir más relajado. Como tantas otras veces en mi vida, me equivoqueé y, es que el bootcamp ha sido mucho más duro de lo que pensaba. También he de decir que no esperaba encontrarme un grupo de compañer@s tan espectacular y que han hecho que, pese a la dureza del curso, haya sido hasta ameno.
+Respecto a mis objetivos personales, puedo decir que los he asumido ya que eran simples: Afianzar conocimientos de HTML y CSS, reforzar los de JS y empezar a conocer Vue(soy plenamente consciente de que es IMPOSIBLE dominar un framework en una semana).
+<h4>Respecto a las grandes dificultades?</h4>
+Diversas:
+<ul>
+<li>La primera de ellas ha sido encontrarme con un curso tan intensivo, en el que por la mañana dábamos un temario y por la tarde otro muy diferente, sin tiempo a asumir las cosas.</li>
+<li>La segunda mi dificultad para entender varios conceptos, que ha hecho que haya tenido que repasar y remirar varios conceptos</li>
+<li>Asociado al primer aspecto, he de admitir que el horario ha sido complejo. No era consciente de que un curso con este horario podía llegar a suponer un agotamiento mental tan bestial</li>
+</ul>
+<h4>¿Qué me ha ayudado a sobrevivir a este bootcamp?</h4>
+<ul>
+<li>En primer lugar, el background con el que venía me ayudó en la primera semana y, sobretodo, en el Midterm, ya que me permitió ir más relajado con la parte del CSS, que fue gran parte del trabajo para varios de mis compañeros</li>
+<li>El conocerme y saber como gestionar la frustración ha sido algo que me ha ayudado muchísimo en este Bootcamp también</li>
+<li>El grupo de amigos(porque a vari@s los considero como tal)ha ayudado una barbaridad ya que el hecho de tener siempre una persona tan frustrada(o más que tú), no vamos a negar que siempre ayuda. Además, de la completa disposición a ayudar de todos los compañeros siempre.</li>
+</ul>
+<h2>Conclusiones finales</h2>
+Bueno, el Bootcamp acaba y con él, este Readme. Lo único que quiero hacer es dar las gracias a todos: Los profesores, mis compañer@s, Eiden, mi pareja y a hasta mis gatos(a día de hoy saben ellos más programación que yo cuando empecé este Bootcamp).
+Además, este bootcamp me ha permitido reforzar algo: Programando sufro como un **** pero lo disfruto como un crío, así que, SÍ, tengo claro que quiero que el diseño web sea mi futuro, y esto ha sido un gran paso para cumplir este futuro
+ 
+
 
